@@ -1,0 +1,37 @@
+body{
+    margin:0;
+    display:block;
+    place-items:center;
+    background-color:antiquewhite
+}
+.box{
+    justify-content: center;
+    align-items:center;
+}
+.credentials{
+    width: 260px;
+    border-color: rgba(0,0,255,0.03);
+    border-radius: 10px;
+    font-size:17px;
+    padding:0.5rem;
+}
+p{
+    margin-left: 5rem;
+}
+h1{
+    color:blue;
+ 
+}
+div{
+    background-color:white;
+    width:20rem;
+    padding: 1rem;
+    border:1px;
+    border-color:white;
+    border-radius:10px
+}
+#button{
+    background:blue;
+    margin-bottom:8px;
+    size:30px;
+}

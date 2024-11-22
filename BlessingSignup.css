@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    place-items: center;
+    background: rgb(200, 200, 200);
+}
+
+@media screen and (min-width: 1000px){
+    h2{
+        font-size: 2em;
+    }
+}
+h2{
+    color: blue;
+    background-color: rgb(200,200,200);
+}
+h1{
+    color: blue;
+}
+.form{
+    background-color: white;
+}
+div{
+    place-items: center;
+    border: 1px;
+    border-radius: 10px;
+}
+input{
+    border-color: rgba(0,0,255,0.09);
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+.input{
+    padding: 5px;
+    border: 1px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+#submit{
+    background: blue;
+}
+.checkbox{
+    font-size:20px;
+}

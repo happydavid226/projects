@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blessing Sign up</title>
+    <link rel="stylesheet" href="BlessingSignup.css">
+</head>
+<body>
+    <div class="h2">
+        <h2>Welcome to Blessing Primary School</h2>
+          
+    </div>
+    <div class="form">
+        <h1>sign up</h1>
+        <form action="BlessingSignup.php" method="post">
+            <fieldset class="input">
+                <input type="text" name="name" id="name" autofocus required placeholder="Student's Name"><br><br>
+                <input type="date" name="dob" id="dob" required  placeholder="Date of Birth"><br><br>
+                <input type="file" name="vacciform" id="vacciform" required placeholder="Vaccination Form"><br><br>
+                <input type="file" name="reportCard" id="reportCard" required placeholder="Report Card"><br><br>
+                <input class="checkbox" type="checkbox" name="hobby" value="football" checked>
+                    <label class="checkbox" for="hobby">Football</label><br>
+                <input class="checkbox" type="checkbox" name="hobby" value="volleyball">
+                    <label class="checkbox" for="hobby">Volleyball</label>   <br>              
+                <input class="checkbox" type="radio" name="gender" value="male" id="gender">
+                    <label class="checkbox" for="gender">Male</label>  <br> 
+                <input class="checkbox" type="radio" name="gender" value="female" id="gender">
+                    <label class="checkbox" for="gender">Female</label>   <br>
+                <input type="text" name="fatherName" id="fatherName" required placeholder="Father's Name"><br><br>
+                <input type="text" name="fatherId" id="fatherId" required placeholder="Father's national id"><br><br>
+                <input type="tel" name="fatherTel" id="FatherTel" placeholder="Father's Telephone"><br><br >
+                <input type="text" name="motherName" id="motherName" required placeholder="Mother's Name"><br><br>
+                <input type="text" name="motherId" id="motherId" required placeholder="Mother's national Id;"><br><br>
+                <input type="tel" name="motherTel" id="motherTel" placeholder="mother's Telephone"><br><br>
+                <input type="text" placeholder="Your Student id" disabled>
+                <p>Fruits liked by student</p>
+                <select name="fruits" id="fruits" Multiple>
+                    <option value="Orange">Orange</option>
+                    <option value="Apple">Apple</option>
+                    <option value="Lemon">Lemon</option>
+                </select>
+
+
+
+                <input type="Submit" value="Sign up" id="submit"><br>
+                
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
