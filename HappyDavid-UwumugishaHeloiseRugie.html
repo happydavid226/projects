@@ -1,0 +1,164 @@
+<html>
+    <head>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body{
+                font-family: arial,sans-serif;
+                background-color: #f4f4f4;
+                color: #333;
+                line-height: 1.6;
+                padding: 0;
+                margin: 0;
+            }
+
+            header {
+                background-color: #4caf50;
+                color: white;
+                text-align:center;
+                padding: 30px;
+                margin-bottom: 20px;
+            }
+            header h1 {
+                font-size: 2.5rem;
+                margin-bottom: 10px;
+            }
+
+            head p {
+                font-size: 1.2rem;
+            }
+
+            nav {
+                background-color: #333;
+            }
+
+            nav ul {
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                padding: 10px;
+            }
+
+            nav ul li{
+                margin: 0px 20px;
+            }
+
+            nav ul li a {
+                color: white;
+                text-decoration: none;
+                font-size: 1.2rem;
+                padding: 10px;
+            }
+            #active {
+                background-color: green;
+            }
+            nav ul li a:hover:not(#active) {
+                background-color: #575757;
+                border-radius: 5px;
+            }
+
+
+            section {
+                padding: 20px;
+                margin: 20px 0;
+                background-color: white;
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            }
+
+            section h2 {
+                font-size: 2rem;
+                margin-bottom: 15px;
+            }
+
+            footer {
+                text-align: center;
+                background-color: #333;
+                color: white;
+                padding: 10px;
+                position: relative;
+                bottom: 0;
+                width: 100%;
+                margin-top: 30px;
+
+            }
+
+            footer p {
+                font-size: 1rem;
+            }
+
+            .dropdown .dropdowncontent a{
+                display: block;
+                position: relative;
+            }
+            .dropdowncontent{
+                background-color: gray;
+                position: absolute;
+                transform: translate(40px, 0px);
+                padding: 2px 15px;
+
+
+                display: none;
+            }
+            a {
+                text-decoration: none;
+            }
+            .dropdown:hover .dropdowncontent {
+                display:block;
+                
+            
+            }
+
+            .dropdown .dropdowncontent a:hover{
+                background-color: white;
+                background-size: auto;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <header>
+        <h1>HappyCode</h1>
+        <h4>Start Competitive Programming</h4>
+        </header>
+        <nav><ul>
+            <li><a href="#home" id="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <div class="dropdown">
+                <li><a href="#resouces">Resources</a></li>
+                <div class="dropdowncontent">
+                    <a href="#">C++</a>
+                    <a href="#">Python</a>
+                    <a href="#">Java</a>
+                    <a href="#">Pascal</a>
+                    <a href="#">Cobol</a>
+                </div>
+            </div>
+           
+        </ul></nav>
+
+        <section id="home">
+            <h2>Home</h2>
+            <p>The best recomended language is c++, do you want to start writing c++ now?</p>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>We are preparing you for International Olympiads for Informatics</p>
+        </section>
+        <section id="services">
+            <h2>Resources</h2>
+            <p>Hover over resources to know our resources</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p><a href="tel:0788888888">Tel: 0788888888</a></p>
+        </section>
+        <footer>
+            <p>&copy; 2025 My Simple Page. All rights reserved</p>
+        </footer>
+    </body>
+</html>
